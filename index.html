@@ -6,10 +6,8 @@
     <title>Unity Web Player | Cat Cards</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=540 height=960 tabindex="-1" style="width: 540px; height: 960px; background: #231F20"></canvas>
-    </div>
-    <script src="Build/cat_cards_new.loader.js"></script>
+    <canvas id="unity-canvas" width=540 height=960 tabindex="-1" style="width: 540px; height: 960px; background: #231F20"></canvas>
+    <script src="Build/public.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -28,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/cat_cards_new.data.unityweb",
-        frameworkUrl: "Build/cat_cards_new.framework.js.unityweb",
-        codeUrl: "Build/cat_cards_new.wasm.unityweb",
+        dataUrl: "Build/public.data.unityweb",
+        frameworkUrl: "Build/public.framework.js.unityweb",
+        codeUrl: "Build/public.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "aaaaa",
         productName: "Cat Cards",
@@ -39,6 +37,6 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
-      <center><a href="https://www.stylemap.co.jp/"><img src="https://www.f-counter.net/j/64/1728967321/" alt="アクセスカウンター"></a></center>
+<center><a href="https://www.stylemap.co.jp/"><img src="https://www.f-counter.net/j/64/1728967321/" alt="アクセスカウンター"></a></center>
   </body>
 </html>
