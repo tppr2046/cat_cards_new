@@ -1,4 +1,4 @@
-const cacheName = "aaaaa-Hedgehog _ Cat-0.1";
+const cacheName = "aaaaa-即通保蝟戰-0.9";
 const contentToCache = [
     "Build/public.loader.js",
     "Build/public.framework.js.unityweb",
